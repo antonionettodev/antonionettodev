@@ -4,7 +4,7 @@
 
 ###
 
-<p align="left">- Full Stack Web Developer 👾<br>- I currently work with: MERN Stack 🖥<br>- I am currently studying: data science 🐼<br>- My Goals: To become a data scientist 🐱‍💻</p>
+<p align="left">- Full Stack Web Developer 👾<br>- I currently work with: MERN Stack 🖥<br>- I am currently studying: data science 🐼<br>- My Goals: To become a data scientist 🐱</p>
 
 ###
 
