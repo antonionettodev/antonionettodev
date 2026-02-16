@@ -13,19 +13,13 @@
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 
-  <img width="4" />
-
   <a href="https://www.linkedin.com/in/antonio-netto-dev/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 
-  <img width="4" />
-
   <a href="https://antonionettodev.medium.com/" target="_blank">
     <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" />
   </a>
-
-  <img width="4" />
 
   <a href="https://antonionetto.dev" target="_blank">
   <img src="https://img.shields.io/badge/Site-000080?style=for-the-badge&logo=googlechrome&logoColor=white" />
@@ -75,6 +69,8 @@
   <img src="https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white&style=for-the-badge" height="32" alt="nestjs logo"  />
   <img width="4" />
   <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" height="32" alt="docker logo"  />
+  <img width="4" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge" height="32" alt="postgresql logo"  />
 </div>
 
 ###
@@ -86,15 +82,11 @@
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" height="32" alt="python logo"  />
   <img width="4" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge" height="32" alt="mysql logo"  />
-  <img width="4" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=for-the-badge" height="32" alt="pytorch logo"  />
   <img width="4" />
   <img src="https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white&style=for-the-badge" height="32" alt="pandas logo"  />
   <img width="4" />
   <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white&style=for-the-badge" height="32" alt="numpy logo"  />
-  <img width="4" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge" height="32" alt="postgresql logo"  />
 </div>
 
 ###
