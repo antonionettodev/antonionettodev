@@ -2,8 +2,10 @@ name: Update README stats cards
 
 on:
   schedule:
-    - cron: "0 3 * * *" # todo dia 03:00 UTC
+    - cron: "0 3 * * *"
   workflow_dispatch:
+  push:
+    branches: [ main ]
 
 permissions:
   contents: write
@@ -14,11 +16,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Ensure assets folder exists
+        run: mkdir -p assets
+
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v1.1.0
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=transparent
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&title_color=7f27ff&icon_color=7f27ff&text_color=c9d1d9&bg_color=0d1117
           path: assets/github-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -26,14 +31,19 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v1.1.0
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&theme=transparent
+          options: username=${{ github.repository_owner }}&layout=compact&hide=jupyter%20notebook,html,css&hide_border=true&title_color=7f27ff&text_color=f4f4f4&bg_color=0d1117
           path: assets/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Debug list generated files
+        run: |
+          ls -la assets
+          git status
 
       - name: Commit & push if changed
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/*.svg
           git commit -m "chore: update readme stats" || exit 0
           git push
