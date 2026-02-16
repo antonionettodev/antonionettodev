@@ -4,7 +4,7 @@
 
 ###
 
-<p align="left">- Full Stack Software Engineer 👾<br>- I currently work with: MERN Stack 🖥<br>- I am currently studying: data science 🐼<br>- My Goals: To become a data scientist 🐱</p>
+<p align="left">- Mid-Level Full Stack Engineer 👾<br>- Experience across frontend, backend, databases and cloud technologies 🖥<br>- Deepening expertise in Data Science, Statistics & Machine Learning 🐼<br>- Long-term Goal: Data Scientist / ML Engineer 🐱</p>
 
 ###
 
