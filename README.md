@@ -4,7 +4,7 @@
 
 ###
 
-<p align="left">- Full Stack Web Developer 👾<br>- I currently work with: MERN Stack 🖥<br>- I am currently studying: data science 🐼<br>- My Goals: To become a data scientist 🐱</p>
+<p align="left">- Full Stack Software Engineer 👾<br>- I currently work with: MERN Stack 🖥<br>- I am currently studying: data science 🐼<br>- My Goals: To become a data scientist 🐱</p>
 
 ###
 
@@ -20,6 +20,10 @@
   <a href="https://antonionettodev.medium.com/" target="_blank">
     <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" />
   </a>
+
+  <a href="https://antonionetto.dev" target="_blank">
+  <img src="https://img.shields.io/badge/Site-000080?style=for-the-badge&logo=googlechrome&logoColor=white" />
+</a>
 </div>
 
 ###
